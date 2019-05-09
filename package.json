@@ -1,0 +1,22 @@
+{
+    "name": "scala-snips",
+    "displayName": "Scala Snips",
+    "description": "Snippets for Scala to help you write code faster",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "icon": "images/scala.png",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "scala",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
